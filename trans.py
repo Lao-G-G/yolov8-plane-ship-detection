@@ -5,9 +5,9 @@ import math
 from PIL import Image
 
 # ==================== 配置 ====================
-NWPU_ROOT = 'D:/PyCharm_2025.1.1.1/project/dataset/FOR_YOLO/NWPU'
-HRSC_ROOT = 'D:/PyCharm_2025.1.1.1/project/dataset/FOR_YOLO/HRSC2016'
-OUTPUT_ROOT = 'D:/PyCharm_2025.1.1.1/project/dataset/FOR_YOLO/combined_dataset'
+NWPU_ROOT = 'path/to/NWPU'
+HRSC_ROOT = 'path/to/HRSC2016'
+OUTPUT_ROOT = './combined_dataset'
 
 # NWPU: 0=airplane, 1=ship
 # 统一映射: 0=ship, 1=airplane
