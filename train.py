@@ -42,7 +42,6 @@ def main():
         mixup=0.1
     )
 
-    # 在测试集上评估最终性能
     metrics = model.val(data='combined_data.yaml', split='test')
     print("\n✅ NWPU test results:")
     print(f"  mAP@0.5 (all):      {metrics.box.map50:.5f}")
