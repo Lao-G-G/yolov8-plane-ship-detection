@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO('runs/detect/nwpu_vhr10_detection/weights/best.pt')
+model = YOLO('runs/detect/project_name/weights/best.pt')
 
 # ONNX
 model.export(format='onnx', imgsz=640, simplify=True)
