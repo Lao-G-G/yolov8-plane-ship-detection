@@ -1,9 +1,0 @@
-path: D:/PyCharm_2025.1.1.1/project/dataset/FOR_YOLO/combined_dataset
-train: images/train
-val: images/val
-test: images/test
-
-nc: 2
-names:
-  0: ship
-  1: airplane
