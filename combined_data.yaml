@@ -1,4 +1,4 @@
-path: D:/PyCharm_2025.1.1.1/project/dataset/FOR_YOLO/combined_dataset
+path: ./data
 train: images/train
 val: images/val
 test: images/test
