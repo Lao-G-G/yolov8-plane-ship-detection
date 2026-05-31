@@ -29,7 +29,7 @@ yolov8-plane-ship-detection/
 ![损失曲线](images/results.png)
 
 #### 各类别 PR 曲线
-![PR曲线](images/PR_curve.png)
+![PR曲线](images/BoxPR_curve.png)
 
 #### 混淆矩阵
 ![混淆矩阵](images/confusion_matrix.png)
